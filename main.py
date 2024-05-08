@@ -4,7 +4,7 @@ from PIL import Image
 
 # taking image which user wants
 # in the QR code center
-Logo_link = 'syngenta_seeds.jpg'
+Logo_link = 'foto.jpg'
 
 logo = Image.open(Logo_link)
 
@@ -21,7 +21,7 @@ QRcode = qrcode.QRCode(
 )
 
 # taking url or text
-url = 'https://app.smartsheet.com/b/form/54ebc0835555499195a1e0c59f79e36e'
+url = 'https://google.com'
 
 # adding URL or text to QRcode
 QRcode.add_data(url)
